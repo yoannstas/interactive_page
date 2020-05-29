@@ -1,9 +1,30 @@
-
 body {
-    background-color: beige;
+    padding: 20px;
+    background-color: floralwhite;
+    max-width: 1200px;
+    margin: auto;
+    background-size: 100% 100%;
 }
 
-h1 {
+.restoimg {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    padding: 9px;
+    font-family: 'Mate', serif;
+    border-bottom: 1px solid black;
+
+}
+
+h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -11,15 +32,14 @@ p {
     font-family: 'Mate', serif;
 }
 
-#summary h1 {
-    display: inline;
-}
-
-#summary p {
-    display: inline;
+h6 {
+    font-family: 'Mate', serif;
 
 }
 
+button {
+
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -43,7 +63,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 
 .container {
     border-radius: 5px;
