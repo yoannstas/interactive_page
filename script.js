@@ -1,5 +1,6 @@
 let img1 = document.getElementById('img1');
 let img2 = document.getElementById('img2');
+
 img2.style.visibility = "hidden";
 img2.style.display = "none";
 
