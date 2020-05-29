@@ -12,7 +12,91 @@
     <title>The Jane Reopening days</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+    <img src="img/1.jpg" alt="restaurant" class="restoimg" id="img1">
+    <img src="img/2.jpg" alt="restaurant" class="restoimg" id="img2">
+
+<main>
+    <button id="summaryBtn">The Jane</button>
+    <button id="infoBtn">Info</button>
+    <button id="reserveBtn">Reserve now</button>
+    <hr>
+    <div class="tab" id="summary">
+        <section class="more-info container mt-sm-5">
+            <div class="row">
+                <div class="col-sm info-content mt-sm-5 d-flex align-content-center flex-wrap justify-content-end text-right">
+                    <h3><u>Welcome to The Jane</u></h3>
+                    <p>The Jane first opened its doors in 2014, offering a unique combination of top notch gastronomy
+                        made accessible for a broad audience — whether young or old, foodies or guests who experience gastronomy for the first time — ever since.
+                        </br>
+                        </br>
+                        The Jane is the gastronomic restaurant set on the ground floor and all tables have a view onto the open kitchen. There is an extensive wine list that offers both new biological wines and golden oldies of renowned wine domains. On the first floor, you can find Jane's Upper Room Bar.</p>
+                </div>
+                <div class="col-sm info-img text-right">
+                    <img class="img-fluid w-85 h-85" src="img/1.jpg" alt="..." id="logo">
+                </div>
+            </div>
+        </section>
+            <div class="tab" id="info">
+                <section class="more-info container mt-sm-5">
+                    <div class="row">
+                        <div class="col-sm info-content mt-sm-5 d-flex align-content-center flex-wrap justify-content-end text-right">
+
+                            <h3><u>What's on the menu?</u></h3>
+                            <p>
+                                In The Jane we serve a tasting menu that consists of a number of starters, followed by the main course and two desserts. There are some possibilities to extend the menu as you wish as well.
+                                We serve the same tasting menu for lunch and for dinner.
+                                </br>
+                                </br>
+                                tasting menu — € 170</br>
+                                </br>
+                                Cheese instead of dessert, € 8</br>
+                                Cheese as supplement, € 18</br>
+                                </br>
+                                The Jane Inimitables beverages pairing (alcoholic) — € 95
+                            </p>
+
+                        </div>
+                        <div class="col-sm info-img text-right">
+                            <img class="img-fluid w-85 h-85" src="img/2.jpg" alt="...">
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="tab" id="contact">
+                <h1>Book a table for the reopening weekend of the 8th of June </h1>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Reservation date</label>
+                <select id="country" name="country">
+                    <option value="australia">8th of June</option>
+                    <option value="canada">9th of June</option>
+                    <option value="usa">10th of June</option>
+                </select>
+
+                <label for="subject">allergy & other extra info</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </div>
+        </br>
+    </div>
+
+</main>
+
+<hr>
+</br>
+<footer class="container text-center">
+    <h6 class=""><i>The Jane Antwerp - 2020</i></h6>
+</footer>
+
+<script src="script.js"></script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -20,67 +104,5 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-</body>
-
-
-<body>
-<header>
-    <img src="img/1.jpg" alt="restaurant" class="restoimg" id="img1">
-    <img src="img/2.jpg" alt="restaurant" class="restoimg" id="img2">
-</header>
-
-<main>
-    <button id="summaryBtn">The Jane</button>
-    <button id="infoBtn">Info</button>
-    <button id="reserveBtn">Reserve now</button>
-    <div class="tab" id="summary">
-        <h1>The Jane</h1>
-        <p>The Jane first opened its doors in 2014,
-            offering a unique combination of top notch gastronomy made accessible for a broad audience —
-            whether young or old, foodies or guests who experience gastronomy for the first time — ever since.
-            </br>
-            </br>
-            The restaurant is set in the former chapel of the Military Hospital.
-            The chapel as well as the surrounding site have been completely renovated
-            a fter years of emptiness. Piet Boon took care of the restaurant’s design and together
-            with various artists and craftspeople he made sure The Jane became a real gem.
-            </br>
-            </br>
-            The Jane is the gastronomic restaurant set on the ground floor and all tables have a
-            view onto the open kitchen. There is an extensive wine list that offers both new biological
-            wines and golden oldies of renowned wine domains. On the first floor, you can find Jane's Upper Room Bar.</p>
-    </div>
-
-    <div class="tab" id="info">
-        <h1>titel</h1>
-        <p>The National Security Council of Belgium has decided that all restaurants will reopen on the 8th of June 2020. </p>
-    </div>
-
-    <div class="tab" id="contact">
-        <h1>Book a table for the reopening weekend of the 8th of June </h1>
-
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-        <label for="country">Reservation date</label>
-        <select id="country" name="country">
-            <option value="australia">8th of June</option>
-            <option value="canada">9th of June</option>
-            <option value="usa">10th of June</option>
-        </select>
-
-        <label for="subject">allergy & other extra info</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-
-    </div>
-
-</main>
-
-<script src="script.js"></script>
 </body>
 </html>
